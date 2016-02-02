@@ -10,49 +10,67 @@
 	
 	<body>
 		<h1>Turnitin</h1>
-		<form  lang="fi" action="">
+		<form  lang="en" action="">
 			<div>
 				Name: <input type="text" name="studentname"/>
-				<br><br/>
+				
 			</div>
 
 			<div>
 				Student id: <input type="text" name="id" size="6" maxlength="7" />
-				<br><br/>
+				
 			</div>
 			<div>
 				Email: <input type ="email" name="email">
-				<br><br/>
+				
 			</div>
 			<div>
 				Assignment: <input type ="text" name="assignment"/>
-				<br><br/>
+				
 			</div>
 
 			<div>
-				Code: <textarea name="code"></textarea>
+				Code:<br> <textarea name="code"></textarea>
 	
 				
 			</div>
 			<div>
-				Cheat:
-			<!--
-				Make an input named "cheat" which is a check box the student must check.
-			-->
+				Cheat:<input type ="checkbox" name="cheat"/>
+
 			</div>
 			<div>
-				Pay:
+				Payment Options:<br>
+				<label><input type="radio" name="card" value="Visa">Visa</label><br>
+				<label><input type="radio" name="card" value="MCard">MasterCard </label><br>
+				<label><input type="radio" name="vwallet" value="paypal">Paypal </label><br>
+				
 			<!--
 				Make an input named "payment" which is a radio box with possible values of visa, paypal, mastercard
 			-->
 			</div>
 			<div>
-				Score:
-			<!--
-				Make an input named "score" which is a list of choices for the score 
-			-->
+				Score: 	<select name="score"> 
+						<option value="1">1</option>
+						<option value="2">2</option> 
+						<option value="3">3</option>
+						<option value="4">4</option> 
+						<option value="5">5</option>
+						</select>
+
 			</div>
 			<input type="submit" />
+			
+			<button onclick="myFunction()">Reset</button>
+
+<script>
+		function myFunction() {
+    		var person = prompt("Please enter your name", "");
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
+    }
+}
+</script>
 		</form>
 		<a href="http://jigsaw.w3.org/css-validator/check/referer">Validate</a>
 	</body>
