@@ -1,0 +1,28 @@
+body{text-align: center;
+    
+}
+
+h1{
+font-size:50px;
+font-family: "Standard  ";
+}
+
+p.one {
+    background-color: blue;
+    border-top: 1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+     
+;
+}
+
+p.two{
+    border-top:1px solid black;
+    
+}
+
+p.three {
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+   
+}
