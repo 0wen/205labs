@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+
+h2 {
+    color: blue;
+    font-weight: bold;
+}
+h1 {
+    font-size: 4.0em;
+    color: blue;
+    font-weight: bold;
+}
+
+ul, ol {
+    font-size: 0.8em;
+}
