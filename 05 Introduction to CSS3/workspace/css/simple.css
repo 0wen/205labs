@@ -2,6 +2,7 @@ body {
     font-family: Arial, Verdana, sans-serif;
 }
 
+<<<<<<< HEAD
 
 h2 {
     color: blue;
@@ -15,4 +16,10 @@ h1 {
 
 ul, ol {
     font-size: 0.8em;
+=======
+h1,
+h2 {
+    color: blue;
+    font-weight: bold;
+>>>>>>> 47efd1754975934f7b6a04be35a4d775e05aa604
 }
