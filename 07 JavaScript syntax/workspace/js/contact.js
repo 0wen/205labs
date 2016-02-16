@@ -10,6 +10,7 @@ function process() {
     var okay = true;
 
     // Get form references:
+    var name = document.getElementById('name');
     var email = document.getElementById('email');
     var comments = document.getElementById('comments');
     // Validate the email address:
@@ -49,6 +50,7 @@ function process() {
         message = "Form not submitted";
     }
     console.log(message);
+    console.log("Name: " + name.value);
     console.log("Email: " + email.value);
     console.log("Comments: " + comments.value);
     alert(message);

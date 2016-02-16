@@ -1,8 +1,8 @@
 p.one {
-    border: 1px solid black;
-    padding: 3em;
-    margin:  1em;
-    margin-bottom: 0em;
+    background-color: #C6D9F1;
+    border-top: 1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
 }
 
 p.two {

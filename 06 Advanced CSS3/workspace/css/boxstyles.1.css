@@ -1,0 +1,46 @@
+
+body{text-align:center;
+    font-family:Arial ;
+}
+h1{ padding:0;
+    font-size: 80px;
+}
+img {
+   border:3px solid #91B0D6;
+}
+figcaption{
+    font-weight:bold;
+}
+
+.eng{
+ font-size:30px;   
+}
+
+.latin{
+    font-size:18px;  
+    font-style:italic;
+}
+p.one {
+    border-top: 1px solid black;
+    background-color: #C6D9F1;
+    padding: 1em;
+    margin:0; margin-left:35%; margin-right:35%;
+
+}
+
+p.two {
+    border-top: 1px solid black;
+    background-color: #FDE9D9;
+    padding: 1em;
+    margin:0; margin-left:35%; margin-right:35%;
+
+}
+
+p.three{
+    border-top: 1px solid black; border-bottom: 1px solid black;
+    background-color: #D99594;
+    padding: 1em;
+    margin:0; margin-left:35%; margin-right:35%;
+
+}
+
