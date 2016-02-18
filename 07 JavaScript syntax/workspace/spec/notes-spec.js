@@ -1,7 +1,7 @@
 /* global casper, __utils__ */
 
 /* Before running these acceptance tests make sure your web app is running then paste in its URL below.*/
-const url = 'ADD URL HERE';
+const url = 'https://covcom-oweb-1.c9users.io/07 JavaScript syntax/workspace/notes.html';
 
 casper.test.begin('can add new item to list', 7, function suite(test) {
   
