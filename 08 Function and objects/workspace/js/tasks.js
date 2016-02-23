@@ -37,6 +37,12 @@ function addTask() {
     return false;
 
 } // End of addTask() function.
+function removeDuplicates(){
+    var uniqTasks= [];
+    for (var i= 0; i<tasks.length; i++){
+    currentitem= tasks[i]
+    }
+}
 
 // Initial setup:
 function init() {
