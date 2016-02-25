@@ -38,15 +38,13 @@ function addTask() {
 
 } // End of addTask() function.
 function removeDuplicates(){
-    var uniqTasks= [];
-    for (var i= 0; i<tasks.length; i++){
-    currentitem= tasks[i]
-    }
+
 }
 
 // Initial setup:
 function init() {
     'use strict';
     document.getElementById('theForm').onsubmit = addTask;
+    document.getElementById('rmd').onClick = removeDuplicate;
 } // End of init() function.
 window.onload = init;
